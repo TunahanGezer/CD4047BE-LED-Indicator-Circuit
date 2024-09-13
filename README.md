@@ -11,7 +11,7 @@ The circuit schematic is included in the project files. It shows the connections
 - **1 x CD4047BE** - Oscillator IC
 - **1 x LED** - Indicator LED
 - **7 x Resistor**
-- **2 x Capacitor** - C1, C2 (timing capacitors)
+- **2 x Capacitor**
 
 ## Circuit Operation
 
