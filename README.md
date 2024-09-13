@@ -1,36 +1,31 @@
-# CD4047BE ile LED Gösterge Devresi
+# CD4047BE LED Indicator Circuit
 
-Bu proje, **CD4047BE** entegresi kullanılarak yapılan basit bir LED gösterge devresini içerir. Bu devre, kare dalga osilatörü kullanarak bir LED'in belirli bir frekansta yanıp sönmesini sağlar.
+This project features a simple LED indicator circuit using the **CD4047BE** IC. The circuit uses a square wave oscillator to make an LED blink at a specific frequency.
 
-## Devre Şeması
+## Circuit Schematic
 
-Devre şeması proje dosyalarında yer almaktadır. Şemada CD4047BE entegresinin bağlantılarını ve kullanılan bileşenleri bulabilirsiniz.
+The circuit schematic is included in the project files. It shows the connections of the CD4047BE IC and the components used in the circuit.
 
-## Kullanılan Bileşenler
+## Components Used
 
-- **1 x CD4047BE** - Osilatör entegresi
-- **1 x LED** - Gösterge LED'i
-- **7 x Direnç** - R1, R2 (zamanlama dirençleri)
-- **2 x Kapasitör** - C1, C2 (zamanlama kapasitörleri)
+- **1 x CD4047BE** - Oscillator IC
+- **1 x LED** - Indicator LED
+- **7 x Resistor** - R1, R2 (timing resistors)
+- **2 x Capacitor** - C1, C2 (timing capacitors)
 
-## Devrenin Çalışma Prensibi
+## Circuit Operation
 
-Devre, CD4047BE entegresinin astable modunda çalışmasıyla kare dalga sinyali üretir. Bu sinyal, LED'in belirli bir aralıkta yanıp sönmesini sağlar. Kullanılan direnç ve kapasitör değerleri, osilasyon frekansını belirler. Farklı değerler ile frekans değiştirilebilir.
+The circuit operates with the CD4047BE in astable mode, generating a square wave signal. This signal makes the LED blink at regular intervals. The values of the resistors and capacitors used in the circuit determine the oscillation frequency. You can modify the frequency by changing the component values.
 
-## Proje Detayları
+## Project Details
 
-- **CD4047BE** entegresi ile basit bir astable osilatör devresi tasarlanmıştır.
-- LED, kare dalga çıkışı ile belirli bir frekansta yanıp söner.
-- Devre, zamanlama elemanları (R1, R2, C1, C2) ile osilasyon frekansını ayarlamayı öğretmektedir.
+- A simple astable oscillator circuit is designed using the **CD4047BE** IC.
+- The LED blinks at a specific frequency based on the square wave output.
+- The project teaches how to adjust the oscillation frequency using timing elements (R1, R2, C1, C2).
 
-## Nasıl Kullanılır
+## How to Use
 
-1. Tüm bileşenleri devre şemasına uygun olarak yerleştirin.
-2. CD4047BE'yi astable modda çalıştırmak için direnç ve kapasitörleri bağlayın.
-3. Güç kaynağını bağlayın ve LED'in yanıp sönmesini gözlemleyin.
-4. Farklı direnç ve kapasitörler kullanarak osilasyon frekansını değiştirebilirsiniz.
-
-## Gelecekteki İyileştirmeler
-
-- Daha karmaşık gösterge devreleri için birden fazla LED eklenebilir.
-
+1. Place all the components according to the circuit schematic.
+2. Connect the resistors and capacitors to run the CD4047BE in astable mode.
+3. Power the circuit with the appropriate voltage and observe the LED blinking.
+4. Change the resistors and capacitors to adjust the oscillation frequency.
