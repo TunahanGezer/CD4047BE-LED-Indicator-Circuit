@@ -32,6 +32,5 @@ Devre, CD4047BE entegresinin astable modunda çalışmasıyla kare dalga sinyali
 
 ## Gelecekteki İyileştirmeler
 
-- Frekans ayarını daha rahat yapmak için bir potansiyometre eklenebilir.
 - Daha karmaşık gösterge devreleri için birden fazla LED eklenebilir.
 
