@@ -10,9 +10,8 @@ Devre şeması proje dosyalarında yer almaktadır. Şemada CD4047BE entegresini
 
 - **1 x CD4047BE** - Osilatör entegresi
 - **1 x LED** - Gösterge LED'i
-- **2 x Direnç** - R1, R2 (zamanlama dirençleri)
+- **7 x Direnç** - R1, R2 (zamanlama dirençleri)
 - **2 x Kapasitör** - C1, C2 (zamanlama kapasitörleri)
-- **Güç Kaynağı** - 5V veya 12V güç kaynağı
 
 ## Devrenin Çalışma Prensibi
 
